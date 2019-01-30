@@ -42,10 +42,11 @@ class Github extends Component {
     return (
       <Fragment>
         <Columns>
-          <div className="fancy-select">
+          <label htmlFor="filter_projects" className="fancy-select">
+            Filter results by initial letter
             <select 
               className="filter-az" 
-              name=""
+              name="filter_projects"
               onChange={this.onChange}
             >
               <option value="all">All</option>
@@ -76,7 +77,7 @@ class Github extends Component {
               <option value="Y">Y</option>
               <option value="Z">Z</option>
             </select>
-          </div>
+          </label>
         </Columns>
         {fetchingContent && <Loading />}
         {!fetchingContent && data.length <= 0 && <Columns>There are no results</Columns>}
