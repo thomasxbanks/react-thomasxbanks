@@ -28,6 +28,7 @@
   justify-content: flex-start;
   box-shadow: 0.125em 0.125em 0.25em rgba(0, 0, 0, 0.15);
   transition: cubic-bezier(0.27, 0.05, 0.45, 1.29) 450ms;
+  text-align: left;
 }
 
 .column footer {
