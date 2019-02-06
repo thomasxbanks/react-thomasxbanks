@@ -11,14 +11,14 @@
 }
 
 .column_container {
-  max-width: 80vw;
-  margin: 1rem auto;
+  padding: 1rem 10vw;
+  margin: 1rem -1rem;
 }
 
 .column {
   background: #626264;
   border-radius: 0.25em;
-  margin: 1rem 0;
+  margin: 1rem;
   width: 100%;
   display: flex;
   flex-direction: column;
