@@ -1,5 +1,4 @@
 @keyframes pulse {
-
   0%,
   100% {
     transform: scale(1);
@@ -11,8 +10,9 @@
 }
 
 .column_container {
-  padding: 1rem 10vw;
-  margin: 1rem -1rem;
+  max-width: 80vw;
+  margin: 1rem auto;
+  text-align: center;
 }
 
 .column {
@@ -77,6 +77,9 @@
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-evenly;
+    max-width: 100%;
+    padding: 1rem 10vw;
+    margin: 1rem -1rem;
   }
 
   .column_container:hover .column {
