@@ -1,6 +1,8 @@
 .hero {
   width: 100%;
-  height: auto;
+  height: 20vh;
+  min-height: 200px;
+  max-height: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
